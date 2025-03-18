@@ -100,7 +100,7 @@ copy.addEventListener("click", () => {
 
 ### Download as Image
 ```javascript
-// Uses html2canvas to convert quote container to image
+
 exportBtn.addEventListener('click', function() {
     const styles = window.getComputedStyle(display);
     console.log(styles.backgroundImage);
